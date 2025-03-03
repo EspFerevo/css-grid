@@ -40,10 +40,11 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .container {
-    grid-template-columns:
+    grid-template-areas:
       "h h h"
+      "sb sb ."
       "f f f ";
   }
 }
