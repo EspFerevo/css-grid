@@ -30,9 +30,8 @@ h6 {
   margin: 0 0 5px 0;
 }
 
-
-
 .grid-item {
+  /* We center the contents of these items. You can also do this with flexbox too! */
   display: grid;
   justify-content: center;
   align-items: center;
@@ -45,16 +44,4 @@ h6 {
 
 .item p {
   margin: 0 0 5px 0;
-}
-
-.container {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 35px;
-  background-color: #ff6f69;
-  border: 4px solid #000;
-  margin-bottom: 10px;
 }
