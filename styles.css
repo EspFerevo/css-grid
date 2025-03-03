@@ -4,4 +4,8 @@
 
 .container {
   display: grid;
+  border: 10px solid black;
+
+  grid-template-columns: 100px 100px 200px;
+  
 }
