@@ -44,7 +44,7 @@
   .container {
     grid-template-areas:
       "h h h"
-      "sb sb ."
+      "sb sb m"
       "f f f ";
   }
 }
