@@ -4,12 +4,13 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 150px);
-  grid-template-rows: repeat(3, 150px);
 
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
+}
 
-  border: 11px solid black;
+.grid-item {
+  display: grid;
 
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
 }
